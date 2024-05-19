@@ -3,14 +3,14 @@
 Welcome to the Blog Generation App, a Streamlit-based application designed to generate blogs using the Llama model from ctransformers. This tool allows users to generate blog posts tailored to different audiences by specifying the topic, number of words, and target audience(["Researchers", "Common People", "Data Scientists"] in this case).
 
 
-## Features
+## Features:
 
 - **Customizable Blog Generation**: Generate blogs based on user-defined topics, word count, and target audience.
 - **Easy to Use Interface**: Simple and intuitive UI built with Streamlit.
 - **Advanced Language Model**: Leverages the power of the Llama model from ctransformers for high-quality content generation.
 
 
-## How it Works
+## How it Works:
 
 The core functionality of the Blog Generation App revolves around the `getLlamaResponse` function. This function effectively combines user input with a language model to generate custom blog content. Here’s a breakdown of how it works:
 
@@ -27,7 +27,7 @@ The core functionality of the Blog Generation App revolves around the `getLlamaR
 This produces high-quality blog content tailored to specific topics, lengths, and audiences. This makes it a powerful tool for quickly generating blog posts across various subjects and styles.
 
 
-### Prerequisites
+### Prerequisites:
 
 - Python 3.8 or higher (3.10.0 used by me)
 - Streamlit
@@ -41,7 +41,7 @@ Place the `llama-2-7b-chat.ggmlv3.q8_0.bin` model file in the `models` directory
    
 We are using the `llama-2-7b-chat.ggmlv3.q8_0.bin` model because it is a state-of-the-art language model that excels in generating coherent and contextually relevant text. This model is part of the Llama (Large Language Model) series and has 7 billion parameters (7B), which allows it to understand and generate detailed and nuanced content. The large number of parameters enables the model to capture complex patterns in data, making it highly effective for natural language processing tasks. Additionally, it uses advanced techniques for optimizing performance and generating high-quality outputs, making it an ideal choice for our blog generation application. The `ggmlv3.q8_0` variant indicates a specific quantization method used to optimize the model's efficiency and performance without compromising its accuracy. However, any other relevant model can also be used.
 
-## Usage
+## Usage:
 
 1. **Run the Streamlit App**:
    ```
