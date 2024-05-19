@@ -45,7 +45,7 @@ We are using the `llama-2-7b-chat.ggmlv3.q8_0.bin` model because it is a state-o
 
 1. **Run the Streamlit App**:
    ```
-   streamlit run app.py
+   streamlit run temp.py
    ```
 
 2. **Generate a Blog**:
