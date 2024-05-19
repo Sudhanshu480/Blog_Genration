@@ -35,7 +35,7 @@ This produces high-quality blog content tailored to specific topics, lengths, an
 - ctransformers
 
 
-**Download the Llama Model**:
+#**Download the Llama Model**:
 
 Place the `llama-2-7b-chat.ggmlv3.q8_0.bin` model file in the `models` directory. Ensure that the path in the script (`models/llama-2-7b-chat.ggmlv3.q8_0.bin`) matches the location of the model file. This or any other model according to user requirements can be downloaded from [Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main).
    
@@ -45,7 +45,7 @@ We are using the `llama-2-7b-chat.ggmlv3.q8_0.bin` model because it is a state-o
 
 1. **Run the Streamlit App**:
    ```
-   streamlit run temp.py
+   streamlit run app.py
    ```
 
 2. **Generate a Blog**:
