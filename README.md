@@ -2,12 +2,21 @@
 
 Welcome to the Blog Generation App, a Streamlit-based application designed to generate blogs using the Llama model from ctransformers. This tool allows users to generate blog posts tailored to different audiences by specifying the topic, number of words, and target audience(["Researchers", "Common People", "Data Scientists"] in this case).
 
+**It can generate blogs on any topic with specified number of words and target audience**
+![WhatsApp Image 2024-05-20 at 10 37 47_a0ff6526](https://github.com/Sudhanshu480/Blog_Genration/assets/96736479/bdf60fc4-10c0-4607-bdea-bede4bc698f3)
+
 
 ## Features:
 
 - **Customizable Blog Generation**: Generate blogs based on user-defined topics, word count, and target audience.
 - **Easy to Use Interface**: Simple and intuitive UI built with Streamlit.
 - **Advanced Language Model**: Leverages the power of the Llama model from ctransformers for high-quality content generation.
+
+**It can even generate response on Games and Sports**
+![WhatsApp Image 2024-05-20 at 10 32 32_0ad8cb32](https://github.com/Sudhanshu480/Blog_Genration/assets/96736479/626d8551-3a31-4e79-9cdb-539a0068fd0e)
+
+**Literature:**
+![WhatsApp Image 2024-05-20 at 10 36 02_1e97051b](https://github.com/Sudhanshu480/Blog_Genration/assets/96736479/f8d0fe59-64e2-4b5c-98c1-ff16fa80eb32)
 
 
 ## How it Works:
@@ -25,6 +34,9 @@ The core functionality of the Blog Generation App revolves around the `getLlamaR
 - **Response Generation**: The generated blog post is returned by the function.
 
 This produces high-quality blog content tailored to specific topics, lengths, and audiences. This makes it a powerful tool for quickly generating blog posts across various subjects and styles.
+
+**Generating Blogs for different audience**
+![WhatsApp Image 2024-05-20 at 10 39 09_e2170a99](https://github.com/Sudhanshu480/Blog_Genration/assets/96736479/7a167ee0-8e4e-4b2f-9685-6bff31068839)
 
 
 ### Prerequisites:
