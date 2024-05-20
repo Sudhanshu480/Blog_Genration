@@ -84,7 +84,7 @@ blog-generation-app/
 └── README.md                             # Project documentation
 ```
 
-## Contributions
+## Contributing
 
-Contributions are welcome!
+Contributions are welcome! Please feel free to fork this repository and submit pull requests to propose changes or improvements.
 
